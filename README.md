@@ -1,0 +1,1 @@
+# superclick - Search Selected Text Shortcut
