@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "superclick - Search Selected Text Shortcut",
-    "version": "1.1",
+    "version": "1.2",
     "description": "Use Command+Shift+Click to search selected text in a new tab",
     "permissions": ["tabs"],
     "content_scripts": [
