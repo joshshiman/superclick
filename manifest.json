@@ -1,25 +1,24 @@
 {
-    "manifest_version": 3,
-    "name": "superclick - Search Selected Text Shortcut",
-    "version": "1.2",
-    "description": "Use Command+Shift+Click to search selected text in a new tab",
-    "permissions": ["tabs"],
-    "content_scripts": [
-      {
-        "matches": ["<all_urls>"],
-        "js": ["content.js"]
-      }
-    ],
-    "background": {
-      "service_worker": "background.js"
-    },
-    "icons": {
+  "manifest_version": 3,
+  "name": "superclick - Search Selected Text Shortcut",
+  "version": "1.2",
+  "description": "Use Command+Shift+Click to search selected text in a new tab",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "128": "images/superclick-logo-128.png"
+  },
+  "action": {
+    "default_icon": {
       "128": "images/superclick-logo-128.png"
-    },
-    "action": {
-      "default_icon": {
-      "128": "images/superclick-logo-128.png"
-      }
     }
   }
-
+}
