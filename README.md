@@ -1,5 +1,12 @@
 # superclick - Search Selected Text Shortcut
 
+
+![superclick-1](images/superclick-1.jpg)
+
+![superclick-2](images/superclick-2.jpg)
+
+![superclick-2](images/superclick-3.jpg)
+
 ## Privacy Policy
 Last Updated: March 08, 2025  
 
